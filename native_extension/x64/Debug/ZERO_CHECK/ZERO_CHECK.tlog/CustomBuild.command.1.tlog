@@ -1,0 +1,10 @@
+^C:\USERS\HS505\MINIPROJCTS\FINAL PROJECT\NATIVE_EXTENSION\CMAKEFILES\371539ABE3F3250F9FCC965D998D860C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/hs505/miniprojcts/final project/native_extension" "-BC:/Users/hs505/miniprojcts/final project/native_extension" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/hs505/miniprojcts/final project/native_extension/native_extension.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

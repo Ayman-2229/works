@@ -1,0 +1,17 @@
+
+{
+  "credentials": {
+    "usernames": {
+      "ayman": {
+        "email": "ayman@example.com",
+        "name": "Ayman",
+        "password": "$2b$12$hxq3sNClpAcvWhhDVj/3XegJqZgfDE3aYeHkeQqaHkAXgV5oRlyye"
+      }
+    }
+  },
+  "cookie": {
+    "name": "expensebot",
+    "key": "supersecret123",
+    "expiry_days": 7
+  }
+}

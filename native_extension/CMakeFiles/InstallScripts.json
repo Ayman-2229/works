@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/hs505/miniprojcts/final project/native_extension/cmake_install.cmake",
+		"C:/Users/hs505/miniprojcts/final project/native_extension/pybind11/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,53 @@
+/* General Page */
+body {
+    background-color: #0f1117;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* App Title */
+.app-title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.app-title h1 {
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.app-title p {
+    font-size: 18px;
+    color: #aaa;
+}
+
+/* Upload section */
+.stFileUploader {
+    background-color: #1e1f26;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Dataframe Styling */
+[data-testid="stDataFrame"] {
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #1b1c22;
+}
+
+/* Success and Info Boxes */
+.stAlert {
+    border-radius: 6px !important;
+}
